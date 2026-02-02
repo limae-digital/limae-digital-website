@@ -15,9 +15,7 @@ chmod +x .githooks/update-version.sh
 On windows:
 ```bash
 git config --local core.autocrlf false
-sudo apt get dos2unix
-dos2unix .githooks/pre-commit .githooks/update-version.sh
-chmod +x .githooks/pre-commit .githooks/update-version.sh
+sed -i 's/\r$//' .githooks/pre-commit .githooks/update-version.sh ;
 ```
 
 ## How it works
