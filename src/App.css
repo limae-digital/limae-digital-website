@@ -40,3 +40,18 @@
 .read-the-docs {
   color: #888;
 }
+
+/* Hide scrollbars globally (Chrome, Edge, Safari, Firefox) */
+html, body {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
+
+/* Make the limaedigital logo responsive when used in img tag */
+img[alt="limaedigital logo"] {
+  max-width: 90%;
+  height: auto;
+}
