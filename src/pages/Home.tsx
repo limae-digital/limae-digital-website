@@ -1,4 +1,3 @@
-import { WebsiteCarbonBadge } from "react-websitecarbon-badge";
 import Footer from "../components/Footer";
 
 export default function Home() {

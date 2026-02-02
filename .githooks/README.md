@@ -12,6 +12,14 @@ chmod +x .githooks/pre-commit
 chmod +x .githooks/update-version.sh
 ```
 
+On windows:
+```bash
+git config --local core.autocrlf false
+sudo apt get dos2unix
+dos2unix .githooks/pre-commit .githooks/update-version.sh
+chmod +x .githooks/pre-commit .githooks/update-version.sh
+```
+
 ## How it works
 
 - Each time you run `git commit`, the pre-commit hook triggers
@@ -23,7 +31,7 @@ chmod +x .githooks/update-version.sh
 
 The script uses semantic versioning: `MAJOR.MINOR.PATCH`
 - Only the PATCH number increments automatically
-- To change MAJOR or MINOR manually, edit `package.json` and `src/components/Footer.tsx` before committing
+- To change MAJOR or MINOR manually, edit `package.json` before committing
 
 ## Note for Windows Users
 
