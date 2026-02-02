@@ -29,7 +29,12 @@ export default function MentionsLegales() {
         <section className="mb-8">
           <h2 className="text-2xl font-bold mb-4">2. Hébergement</h2>
           <p className="mb-4">
-            Ce site est hébergé par: Github
+            Ce site est hébergé par: IONOS SE
+            Elgendorfer Str. 57
+            56410 Montabaur
+            Allemagne
+            Tél. : 0970 808 911
+            Site : https://www.ionos.fr
           </p>
         </section>
 
