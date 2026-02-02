@@ -58,7 +58,7 @@ export default function PolitiqueConfidentialite() {
         <section className="mb-8">
           <h2 className="text-2xl font-bold mb-4">6. Vos droits</h2>
           <p className="mb-4">
-            Vous avez le droit d'accéder, de rectifier ou de supprimer vos données personnelles. Pour exercer ces droits, contactez-nous à: [Add your contact email]
+            Vous avez le droit d'accéder, de rectifier ou de supprimer vos données personnelles. Pour exercer ces droits, contactez-nous à: contact@limae.digital
           </p>
         </section>
 

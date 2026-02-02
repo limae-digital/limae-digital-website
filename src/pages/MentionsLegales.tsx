@@ -17,16 +17,19 @@ export default function MentionsLegales() {
           </p>
           <p className="mb-4">
             Responsable du site: LIMAE DIGITAL
+            SASU au capital de 500 €
+            Siège social: 1 rue Marguerin 75014 Paris
+            RCS: PARIS 999 693 617
           </p>
           <p className="mb-4">
-            Contact: [Add your contact email]
+            Contact: contact@limae.digital
           </p>
         </section>
 
         <section className="mb-8">
           <h2 className="text-2xl font-bold mb-4">2. Hébergement</h2>
           <p className="mb-4">
-            Ce site est hébergé par: [Add your hosting provider]
+            Ce site est hébergé par: Github
           </p>
         </section>
 
