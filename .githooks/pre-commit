@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Pre-commit hook that runs the version update script
+
+.githooks/update-version.sh
+
+exit 0
