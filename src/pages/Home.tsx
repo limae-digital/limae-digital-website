@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col relative">
-      <main className="flex-1 flex items-center justify-center">
+      <main className="flex-1 flex items-center justify-center pb-32">
         <img
           src="/limaedigital.svg"
           alt="limaedigital logo"
