@@ -13,6 +13,16 @@ export default function Footer() {
           <a href="/politique-confidentialite" className="hover:underline">Politique de confidentialité</a>
         </div>
         <p>Version {version} made with ❤️ by LIMAE DIGITAL</p>
+        <div className="space-y-2 text-xs">
+          <div className="flex flex-col md:flex-row md:justify-center md:gap-1 gap-1">
+            <p>SASU au capital de 500 €</p>
+            <span className="hidden md:inline">·</span>
+            <p> 1 rue Marguerin 75014 PARIS</p>
+            <span className="hidden md:inline">·</span>
+            <p>RCS PARIS 999 693 617</p>
+          </div>
+        </div>
+
       </div>
       <div className="mt-3"><WebsiteCarbonBadge url="https://limae.digital" /></div>
     </footer>
