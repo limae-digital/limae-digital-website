@@ -4,9 +4,12 @@ import packageJson from "../../package.json";
 export default function Footer() {
   const version = packageJson.version;
 
+  // Render footer as a regular block at the end of the page (no fixed positioning)
+  const classes = "block w-full py-6 text-center text-sm text-gray-700 bg-white/30 backdrop-blur-md";
+
   return (
-    <footer className="fixed bottom-0 left-0 right-0 py-4 text-center text-sm text-gray-600 bg-white/30 backdrop-blur-md">
-      <div className="space-y-2">
+    <footer className={classes}>
+      <div className="space-y-2 max-w-4xl mx-auto">
         <div className="flex flex-col md:flex-row md:justify-center md:gap-4 gap-1">
           <a href="/mentions-legales" className="hover:underline">Mentions légales</a>
           <span className="hidden md:inline">·</span>
