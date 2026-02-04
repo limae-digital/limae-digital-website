@@ -22,7 +22,7 @@ export default function Footer() {
             <span className="hidden md:inline">·</span>
             <p> 1 rue Marguerin 75014 PARIS</p>
             <span className="hidden md:inline">·</span>
-            <p>RCS PARIS 999 693 617</p>
+            <a href="https://annuaire-entreprises.data.gouv.fr/entreprise/limae-digital-999693617" target="_blank" className="hover:underline" rel="noopener noreferrer">RCS PARIS 999 693 617</a>
           </div>
         </div>
 

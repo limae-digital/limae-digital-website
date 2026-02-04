@@ -14,40 +14,63 @@ export default function Home() {
         <ScrollIndicator />
       </main>
 
-      <FeatureBlock id="description" title="Description" subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
+      <FeatureBlock id="description" title="LIMAE DIGITAL" subtitle="Accompagnement des particuliers, entreprises et organisations dans leur transformation numérique en proposant une expertise globale, de la stratégie à la mise en œuvre opérationnelle.">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus
-          ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent
-          mauris. Fusce nec tellus sed augue semper porta. Mauris massa.
+          Nous intervenons en conseil, conception et développement de sites internet, 
+          d’applications mobiles et de solutions logicielles sur mesure, tout en assurant 
+          leur maintenance, leur évolution et leur pérennité. Nous prenons également en charge
+          la gestion, le pilotage et la coordination de projets numériques, 
+          incluant l’assistance à maîtrise d’ouvrage et la direction de projets informatiques complexes.
         </p>
         <p>
-          Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
-          per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc.
+          LIMAE DIGITAL conçoit et déploie des stratégies de communication et de diffusion digitales adaptées 
+          aux enjeux de visibilité, de valorisation et de performance. Nous accompagnons nos clients à travers 
+          le conseil, la formation et l’accompagnement opérationnel, en lien avec la création et l’exploitation 
+          de contenus, de produits et de services numériques.
+        </p>
+        <p>
+          Nous proposons par ailleurs des services d’hébergement, d’administration et d’exploitation de sites internet, 
+          d’applications et de plateformes numériques, pour notre propre compte ou pour celui de nos clients, 
+          en garantissant fiabilité, sécurité et continuité de service.
+        </p>
+        <p>
+          Enfin, LIMAE DIGITAL assure la création, la production et la diffusion de contenus numériques et audiovisuels — 
+          photographiques, textuels, artistiques ou multimédias. Depuis la conception jusqu’à la post-production, l’édition, 
+          la commercialisation et la promotion, sur l’ensemble des supports digitaux, notamment le web et les réseaux sociaux.
         </p>
       </FeatureBlock>
 
       <FeatureBlock id="services" title="Mes services" subtitle="Solutions sur mesure pour votre croissance">
         <ul className="list-disc ml-6">
-          <li><strong>Service A:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-          <li><strong>Service B:</strong> Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</li>
-          <li><strong>Service C:</strong> Sed nisi. Nulla quis sem at nibh elementum imperdiet.</li>
+          <li><strong>Service A:</strong> Accompagnement digital personnalisé</li>
+          <li><strong>Service B:</strong> Conception et développement d’application web</li>
+          <li><strong>Service C:</strong> Création et personnalisation de site internet</li>
         </ul>
-        <p className="mt-4">
-          Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
-        </p>
       </FeatureBlock>
 
       <FeatureBlock id="contact" title="Contactez‑moi" subtitle="Envie d'échanger ? Voici comment me joindre">
         <p>
-          Pour toute question ou demande de devis, envoyez un message ou utilisez le formulaire ci-dessous. Lorem ipsum
-          dolor sit amet, consectetur adipiscing elit.
+          Pour toute question ou demande de devis, contactez-moi par email ou téléphone :
         </p>
-        <form className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
-          <input type="text" placeholder="Votre nom" className="p-3 bg-gray-900 rounded border border-gray-800" />
-          <input type="email" placeholder="Votre email" className="p-3 bg-gray-900 rounded border border-gray-800" />
-          <textarea placeholder="Votre message" className="md:col-span-2 p-3 bg-gray-900 rounded border border-gray-800 h-32"></textarea>
-          <button type="button" className="md:col-span-2 inline-block bg-[#646cff] text-white px-6 py-3 rounded-md">Envoyer</button>
-        </form>
+        <div className="flex flex-col md:flex-row md:justify-left md:gap-4 gap-4">
+          <a href="mailto:contact@limae.digital" className="inline-block bg-[#646cff] text-white px-6 py-3 rounded-md hover:bg-[#535bf2] hover:text-gray-100 transition">contact@limae.digital</a>
+          <a href="tel:+33680908543" className="inline-block bg-[#646cff] text-white px-6 py-3 rounded-md hover:bg-[#535bf2] hover:text-gray-100 transition">+33 (0)6 80 90 85 43</a>
+        </div>
+        <p>
+          Ou retrouvez-moi sur les plateformes suivantes :
+        </p>
+        <div className="flex flex-col md:flex-row md:justify-left md:gap-4 gap-4">
+          <a href="https://www.malt.fr/profile/aujajames1" target="_blank" rel="noopener noreferrer"><img
+            src="/malt.png"
+            alt="Limae Digital sur Malt logo"
+            className="h-36 sm:h-48 md:h-64 lg:h-80"
+          /></a>
+          <a href="https://www.allovoisin.com/p/limae-digital" target="_blank" rel="noopener noreferrer"><img
+            src="/allovoisin.png"
+            alt="Limae Digital sur AlloVoisin logo"
+            className="h-36 sm:h-48 md:h-64 lg:h-80"
+          /></a>
+        </div>
       </FeatureBlock>
 
       <Footer />
