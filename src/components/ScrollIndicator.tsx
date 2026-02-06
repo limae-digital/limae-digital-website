@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function ScrollIndicator() {
   return (
     <div className="mt-6 flex flex-col items-center gap-1 text-[#646cff]" aria-hidden>

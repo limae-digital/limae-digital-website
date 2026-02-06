@@ -4,11 +4,10 @@ type Props = {
   title: string;
   subtitle?: string;
   children?: React.ReactNode;
-  reverse?: boolean;
   id?: string;
 };
 
-export default function FeatureBlock({ title, subtitle, children, reverse = false, id }: Props) {
+export default function FeatureBlock({ title, subtitle, children, id }: Props) {
   return (
     <section id={id} className="py-20">
       <div className="max-w-6xl mx-auto px-6">
