@@ -52,28 +52,31 @@ export default function Home() {
         <p>
           Pour toute question ou demande de devis, contactez-moi par email ou téléphone :
         </p>
-        <div className="flex flex-col md:flex-row md:justify-left md:gap-4 gap-4">
+        <div className="flex flex-col md:flex-row md:justify-left md:gap-12 gap-12">
           <a href="mailto:contact@limae.digital" className="inline-block bg-[#646cff] text-white px-6 py-3 rounded-md hover:bg-[#535bf2] hover:text-gray-100 transition">contact@limae.digital</a>
           <a href="tel:+33680908543" className="inline-block bg-[#646cff] text-white px-6 py-3 rounded-md hover:bg-[#535bf2] hover:text-gray-100 transition">+33 (0)6 80 90 85 43</a>
         </div>
         <p>
           Ou retrouvez-moi sur les plateformes suivantes :
         </p>
-        <div className="flex flex-col md:flex-row md:justify-left md:gap-4 gap-4">
+        <div className="flex flex-col md:flex-row md:justify-left md:gap-16 gap-16">
           <a href="https://www.malt.fr/profile/aujajames1" target="_blank" rel="noopener noreferrer"><img
             src="/malt.png"
             alt="Limae Digital sur Malt logo"
-            className="h-36 sm:h-48 md:h-64 lg:h-80"
           /></a>
           <a href="https://www.allovoisin.com/p/limae-digital" target="_blank" rel="noopener noreferrer"><img
             src="/allovoisin.png"
             alt="Limae Digital sur AlloVoisin logo"
-            className="h-36 sm:h-48 md:h-64 lg:h-80"
+          /></a>
+          <a href="https://www.linkedin.com/company/limae-digital" target="_blank" rel="noopener noreferrer"><img
+            src="/linkedin.png"
+            alt="Limae Digital sur LinkedIn logo"
+           
           /></a>
         </div>
       </FeatureBlock>
-
       <Footer />
     </div>
   );
 }
+//  className="h-36 sm:h-48 md:h-64 lg:h-80"
