@@ -8,5 +8,10 @@ RUN npm ci
 COPY . .
 RUN npm run build
 
-# Coolify Caddy expects static files here
-RUN mkdir -p /app/public && cp -r dist/* /app/public/
+# Coolify Caddy serves files from here
+RUN mkdir -p /app/public \
+ && cp -r dist/* /app/public/
+
+# Keep container alive for Coolify
+CMD ["sleep", "infinity"]
+
