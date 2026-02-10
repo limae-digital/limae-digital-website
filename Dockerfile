@@ -1,5 +1,4 @@
-# ---------- Build stage ----------
-FROM node:20-alpine AS builder
+FROM node:20-alpine
 
 WORKDIR /app
 
@@ -9,8 +8,5 @@ RUN npm ci
 COPY . .
 RUN npm run build
 
-# ---------- Runtime stage ----------
-FROM lipanski/docker-static-website:latest
-
-# docker-static-website serves files from /usr/share/caddy
-COPY --from=builder /app/dist /usr/share/caddy
+# Coolify Caddy expects static files here
+RUN mkdir -p /app/public && cp -r dist/* /app/public/
