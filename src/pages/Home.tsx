@@ -1,7 +1,6 @@
 import Footer from "../components/Footer";
-import ScrollIndicator from "../components/ScrollIndicator";
 import FeatureBlock from "../components/FeatureBlock";
-// <ScrollIndicator />
+
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col relative">
