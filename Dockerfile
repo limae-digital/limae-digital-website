@@ -8,10 +8,10 @@ RUN npm ci
 COPY . .
 RUN npm run build
 
-# Coolify Caddy serves files from here
+# Prepare static files
 RUN mkdir -p /app/public \
  && cp -r dist/* /app/public/
 
-# Keep container alive for Coolify
-CMD ["sleep", "infinity"]
-
+# Minimal HTTP server for Coolify Caddy to proxy to
+EXPOSE 80
+CMD ["busybox", "httpd", "-f", "-p", "80", "-h", "/app/public"]
