@@ -13,5 +13,5 @@ RUN mkdir -p /app/public \
  && cp -r dist/* /app/public/
 
 # Minimal HTTP server for Coolify Caddy to proxy to
-EXPOSE 80
+EXPOSE 3000
 CMD ["busybox", "httpd", "-f", "-p", "3000", "-h", "/app/public"]
