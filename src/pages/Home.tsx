@@ -41,9 +41,9 @@ export default function Home() {
 
       <FeatureBlock id="services" title="Mes services" subtitle="Solutions sur mesure pour votre croissance">
         <ul className="list-disc ml-4 sm:ml-6">
-          <li><strong>Service A:</strong> Accompagnement digital personnalisé</li>
-          <li><strong>Service B:</strong> Conception et développement d’application web</li>
-          <li><strong>Service C:</strong> Création et personnalisation de site internet</li>
+          <li><strong>Accompagnement digital</strong> personnalisé</li>
+          <li><strong>Conception et développement</strong> d’application web</li>
+          <li><strong>Création et personnalisation</strong> de site internet</li>
         </ul>
       </FeatureBlock>
 
