@@ -2,7 +2,9 @@ version="0.4"
 last_updated="2026-02-11"
 
 [org]
-disclosures = [ ]
+disclosures = [
+	{ doc_type='sustainability-page', url='https://limae.eu/sustainability', valid_until='2036-01-01' }
+]
 
 [upstream]
 services = [
