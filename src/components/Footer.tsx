@@ -14,6 +14,9 @@ export default function Footer() {
           <a href="/mentions-legales" className="hover:underline">Mentions légales</a>
           <span className="hidden md:inline">·</span>
           <a href="/politique-confidentialite" className="hover:underline">Politique de confidentialité</a>
+          <span className="hidden md:inline">·</span>
+          <a href="/sustainability" className="hover:underline">Sustainability</a>
+
         </div>
         <p>Version {version} made with ❤️ by LIMAE DIGITAL</p>
         <div className="space-y-2 text-xs">
