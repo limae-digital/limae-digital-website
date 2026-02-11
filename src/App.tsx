@@ -13,7 +13,6 @@ function App() {
         <Route path="/mentions-legales" element={<MentionsLegales />} />
         <Route path="/politique-confidentialite" element={<PolitiqueConfidentialite />} />
         <Route path="/sustainability" element={<Sustainability />} />
-
       </Routes>
     </BrowserRouter>
   );

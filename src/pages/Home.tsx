@@ -8,8 +8,7 @@ export default function Home() {
         <img
           src="/limaedigital.svg"
           alt="limaedigital logo"
-          className="w-24 h-24 sm:w-36 sm:h-36 md:w-48 md:h-48 lg:w-64 lg:h-64 xl:w-80 xl:h-80"
-        />
+          className="w-24 h-24 sm:w-36 sm:h-36 md:w-48 md:h-48 lg:w-64 lg:h-64 xl:w-80 xl:h-80" />
       </main>
 
       <FeatureBlock id="description" title="LIMAE DIGITAL" subtitle="Accompagnement des particuliers, entreprises et organisations dans leur transformation numérique en proposant une expertise globale, de la stratégie à la mise en œuvre opérationnelle.">
