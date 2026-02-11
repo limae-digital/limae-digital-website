@@ -1,0 +1,10 @@
+version="0.4"
+last_updated="2026-02-11"
+
+[org]
+disclosures = [ ]
+
+[upstream]
+services = [
+	{ domain='ionos.fr', service_type='vps' }
+]
