@@ -11,7 +11,7 @@ export default function Home() {
           className="w-24 h-24 sm:w-36 sm:h-36 md:w-48 md:h-48 lg:w-64 lg:h-64 xl:w-80 xl:h-80" />
       </main>
 
-      <FeatureBlock id="description" title="LIMAE DIGITAL" subtitle="Accompagnement des particuliers, entreprises et organisations dans leur transformation numérique en proposant une expertise globale, de la stratégie à la mise en œuvre opérationnelle.">
+      <FeatureBlock id="description" title="A propos de LIMAE DIGITAL" subtitle="Accompagnement des particuliers, entreprises et organisations dans leur transformation numérique en proposant une expertise globale, de la stratégie à la mise en œuvre opérationnelle.">
         <p>
           Nous intervenons en conseil, conception et développement de sites internet, 
           d’applications mobiles et de solutions logicielles sur mesure, tout en assurant 
@@ -37,7 +37,7 @@ export default function Home() {
         </p>
       </FeatureBlock>
 
-      <FeatureBlock id="services" title="Mes services" subtitle="Solutions sur mesure pour votre croissance">
+      <FeatureBlock id="services" title="Mos services" subtitle="Solutions sur mesure pour votre croissance">
         <ul className="list-disc ml-4 sm:ml-6">
           <li><strong>Accompagnement digital</strong> personnalisé</li>
           <li><strong>Conception et développement</strong> d’application web</li>
@@ -45,32 +45,29 @@ export default function Home() {
         </ul>
       </FeatureBlock>
 
-      <FeatureBlock id="contact" title="Contactez‑moi" subtitle="Envie d'échanger ? Voici comment me joindre">
+      <FeatureBlock id="contact" title="Contactez‑nous" subtitle="Envie d'échanger ? Voici comment nous joindre">
         <p>
-          Pour toute question ou demande de devis, contactez-moi par email ou téléphone :
+          Pour toute question ou demande de devis, contactez-nous par email, téléphone ou retrouvez-nous sur les plateformes suivantes :
         </p>
-        <div className="flex flex-col items-center justify-center sm:flex-row gap-4 sm:gap-6 md:gap-12">
-          <a href="mailto:contact@limae.digital" className="inline-block bg-[#646cff] px-4 sm:px-6 py-2 sm:py-3 rounded-md text-sm sm:text-base hover:bg-[#535bf2] transition text-center">contact@limae.digital</a>
-          <a href="tel:+33680908543" className="inline-block bg-[#646cff] px-4 sm:px-6 py-2 sm:py-3 rounded-md text-sm sm:text-base hover:bg-[#535bf2] transition text-center">+33 (0) 6 80 90 85 43</a>
+        <div className="flex flex-col items-center justify-center sm:flex-row gap-4 sm:gap-6 md:gap-12 py-3">
+          <a href="mailto:contact@limae.digital" className="inline-block bg-[#646cff] px-4 sm:px-6 py-2 text-white sm:py-3 rounded-md text-sm sm:text-base hover:bg-[#535bf2] transition text-center">contact@limae.digital</a>
+          <a href="tel:+33680908543" className="inline-block bg-[#646cff] px-4 sm:px-6 py-2 text-white sm:py-3 rounded-md text-sm sm:text-base hover:bg-[#535bf2] transition text-center">+33 (0) 6 80 90 85 43</a>
         </div>
-        <p>
-          Ou retrouvez-moi sur les plateformes suivantes :
-        </p>
-        <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12">
+        <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12 py-3">
           <a href="https://www.malt.fr/profile/aujajames1" target="_blank" rel="noopener noreferrer"><img
             src="/malt.png"
             alt="Limae Digital sur Malt logo"
-            className="max-w-3xs"
+            className="max-w-3xs max-h-12 hover:opacity-75 transition-opacity"
           /></a>
           <a href="https://www.allovoisin.com/p/limae-digital" target="_blank" rel="noopener noreferrer"><img
             src="/allovoisin.png"
             alt="Limae Digital sur AlloVoisin logo"
-            className="max-w-3xs"
+            className="max-w-3xs max-h-12 hover:opacity-75 transition-opacity"
           /></a>
           <a href="https://www.linkedin.com/company/limae-digital" target="_blank" rel="noopener noreferrer"><img
             src="/linkedin.png"
             alt="Limae Digital sur LinkedIn logo"
-            className="max-w-3xs"
+            className="max-w-3xs max-h-12 hover:opacity-75 transition-opacity"
           /></a>
         </div>
       </FeatureBlock>

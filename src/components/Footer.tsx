@@ -11,13 +11,9 @@ export default function Footer() {
     <footer className={classes}>
       <div className="space-y-2 max-w-4xl mx-auto">
         <div className="flex flex-col md:flex-row md:justify-center md:gap-4 gap-1">
-          <a href="/mentions-legales" className="hover:underline">Mentions légales</a>
-          <span className="hidden md:inline">·</span>
-          <a href="/politique-confidentialite" className="hover:underline">Politique de confidentialité</a>
-          <span className="hidden md:inline">·</span>
-          <a href="/sustainability" className="hover:underline">Sustainability</a>
-
-        </div>
+          <a href="/mentions-legales" className="hover:underline text-blue-600">Mentions légales</a>
+          <span className="hidden md:inline ">·</span>
+          <a href="/politique-confidentialite" className="hover:underline text-blue-600">Politique de confidentialité</a>        </div>
         <p>Version {version} made with ❤️ by LIMAE DIGITAL</p>
         <div className="space-y-2 text-xs">
           <div className="flex flex-col md:flex-row md:justify-center md:gap-1 gap-1">
