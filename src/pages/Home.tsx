@@ -37,7 +37,7 @@ export default function Home() {
         </p>
       </FeatureBlock>
 
-      <FeatureBlock id="services" title="Mos services" subtitle="Solutions sur mesure pour votre croissance">
+      <FeatureBlock id="services" title="Nos services" subtitle="Solutions sur mesure pour votre croissance">
         <ul className="list-disc ml-4 sm:ml-6">
           <li><strong>Accompagnement digital</strong> personnalisé</li>
           <li><strong>Conception et développement</strong> d’application web</li>
